@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  color: #000;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.header {
+  width: 100%;
+  height: 46px;
+  line-height: 46px;
+}
+
+.header form {
+  width: 95%;
+  position: relative;
+}
+
+.header form .a {
+  position: absolute;
+  left: 17px;
+  top: 2px;
+}
+
+.header form input {
+  width: 90%;
+  margin-left: 3%;
+  height: 35px;
+  background: #ccc;
+  border-radius: 3px;
+  border: 0;
+  line-height: 35px;
+  text-indent: 2.2em;
+}
+
+.con {
+  width: 100%;
+}
+
+.con .box {
+  width: 100%;
+  height: 46px;
+}
+
+.con .box ul {
+  width: 100%;
+  overflow: hidden;
+}
+
+.con .box ul li {
+  float: left;
+  line-height: 46px;
+  font-size: 14px;
+  padding: 0 9px;
+}
+
+.con .box ul li i {
+  color: #ccc;
+}
+
+.con .box ul li img {
+  width: 28px;
+  height: 15px;
+}
+
+.con .swiper-container {
+  width: 100%;
+  height: 160px;
+}
+
+.con .swiper-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.con .Img {
+  width: 100%;
+  height: 100px;
+}
+
+.middle {
+  width: 100%;
+  height: 46px;
+}
+
+.middle ul {
+  width: 100%;
+  height: 46px;
+  display: flex;
+  flex-direction: row;
+}
+
+.middle ul li {
+  height: 46px;
+  width: 100%;
+  float: left;
+  margin-left: 12px;
+  line-height: 46px;
+  flex: 1;
+}
+
+.middle ul li span {
+  font-size: 12px;
+}
+
+.middle ul li i {
+  display: inline-block;
+  font-size: 25px;
+  margin-right: 4px;
+}
+
+.bottom {
+  width: 100%;
+}
+
+.bottom .content {
+  width: 100%;
+  display: flex;
+  margin: 10px 0;
+}
+
+.bottom .content dl {
+  flex: 1;
+  text-align: center;
+}
+
+.bottom .content dl dt {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #ccc;
+  text-align: center;
+  line-height: 50px;
+  margin-left: 14px;
+  font-size: 25px;
+}
+
+.bottom .content dl dd {
+  margin-top: 8px;
+  text-align: center;
+}
+
+.footer {
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  background: #fff;
+}
+
+.footer a {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.footer a i {
+  font-size: 24px;
+}
